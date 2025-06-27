@@ -45,7 +45,7 @@ This project demonstrates how to configure and test basic firewall rules on a Wi
   - Control Panel > Programs > Turn Windows features on or off > Check **Telnet Client**
   - Restarted system if required
 - Opened Command Prompt:
-  ```bash
+
   telnet localhost 23
 
 
@@ -81,7 +81,7 @@ This project demonstrates how to configure and test basic firewall rules on a Wi
   2. Allowed TCP port `22` (SSH) → added for secure access
 
 - **Test Performed**:
-  ```bash
+  
   telnet localhost 23
   
 
