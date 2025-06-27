@@ -3,7 +3,7 @@
 
 This project demonstrates how to configure and test basic firewall rules on a Windows system using **Windows Defender Firewall with Advanced Security**.
 
----
+
 
 ## Objective
 
@@ -30,7 +30,6 @@ This project demonstrates how to configure and test basic firewall rules on a Wi
 - In the left panel, select *Inbound Rules*
 - Reviewed existing rules applied to the system
 
----
 
 ### 3. Block Inbound Traffic on Port 23 (Telnet)
 - Created a *new inbound rule*
@@ -49,7 +48,7 @@ This project demonstrates how to configure and test basic firewall rules on a Wi
   ```bash
   telnet localhost 23
 
----
+
 
 ### 5. Allow SSH (Port 22)
 
